@@ -12,7 +12,7 @@ body {
 /* Add styles here! */
 
 header {
-  border-bottom: 8px solid hsl(0, 0, 60);
+  border-bottom: 8px solid hsl(0deg 0% 60%);
 }
 
 h1 {
@@ -34,7 +34,7 @@ p:last-child {
 }
 
 strong {
-  color: hsl(160, 100, 30);
+  color: hsl(160deg 100% 30%);
 }
 
 .max-width-wrapper {
@@ -50,12 +50,21 @@ strong {
 }
 
 main {
-  background-color: hsl(0, 0, 40);
+  background-color: hsl(0deg 0% 40%);
   padding: 64px 0;
 }
 
 .card {
-  background-color: hsl(0, 0, 100);
+  background-color: hsl(0deg 0% 100%);
   padding: 24px;
   margin: 0 -24px;
+}
+
+.indented-heading {
+  background-color: hsl(45deg 100% 50%);
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0;
+  padding: 16px 32px;
+  border-bottom: 8px solid hsl(45deg 100% 40%);
 }
