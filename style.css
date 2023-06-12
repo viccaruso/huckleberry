@@ -61,10 +61,14 @@ main {
 }
 
 .indented-heading {
+  width: fit-content;
   background-color: hsl(45deg 100% 50%);
   font-size: 1.5rem;
   line-height: 1.2;
   margin: 0;
+  margin-left: -32px;
+  margin-top: -16px;
+  margin-bottom: 1rem;
   padding: 16px 32px;
   border-bottom: 8px solid hsl(45deg 100% 40%);
 }
