@@ -29,4 +29,6 @@ main {
 
 .card {
   background-color: hsl(0, 0, 100);
+  padding: 24px;
+  margin: 0 -24px;
 }
