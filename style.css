@@ -11,6 +11,10 @@ body {
 
 /* Add styles here! */
 
+header {
+  border-bottom: 8px solid hsl(0, 0, 60);
+}
+
 h1 {
   font-size: 2rem;
   line-height: 1.2;
@@ -23,6 +27,10 @@ p {
   line-height: 1.5;
   margin: 0;
   margin-bottom: 1rem;
+}
+
+strong {
+  color: hsl(160, 100, 30);
 }
 
 .max-width-wrapper {
