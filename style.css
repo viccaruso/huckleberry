@@ -10,3 +10,7 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
