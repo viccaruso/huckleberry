@@ -14,3 +14,9 @@ body {
   width: 800px;
   margin: 0 auto;
 }
+
+.intro-chunk {
+  max-width: 415px;
+  padding-top: 96px;
+  padding-bottom: 64px;
+}
